@@ -1,0 +1,19 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Balkan x", "Synapse")
+
+local Tab = Window:NewTab("Main🏠")
+local Section = Tab:NewSection("Script")
+Section:NewLabel("Script")
+
+
+Section:NewButton("Pls Donate", "OG", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/CF-Trail/tzechco-PlsDonateAutofarmBackup/main/old.lua'))()
+end)
+
+Section:NewButton("Big Paintball", "OG", function()
+loadstring(game:HttpGet('https://itots.tk/zaphub/ZapHubFreeVersion'))()
+end)
+
+Section:NewButton("Prison life", "OG", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/H17S32/Tiger_Admin/main/MAIN'))()
+end)
